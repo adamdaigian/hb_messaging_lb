@@ -223,8 +223,8 @@ margin: 0;
 
 .navbar-default .navbar-nav>li>a:hover {
   color: #666666;
-  border-bottom: 4px solid #666666;
-  border-bottom-width: 80%;
+/*  border-bottom: 4px solid #666666;
+  border-bottom-width: 80%;*/
 }
 
 .navbar-brand {
@@ -250,7 +250,7 @@ margin: 0;
 #home {
   position: relative;
   height: 770px;
-/*  top: -80px;*/
+  top: -80px;
   right: 0;
   left: 0;
   background:
