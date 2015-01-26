@@ -13,18 +13,8 @@ body, input, select, textarea, button {
   text-rendering: optimizeLegibility;
   font-family: "Open Sans", sans-serif; }
 
-a {
-  -webkit-tap-highlight-color: #2E4051; }
-
-/*::-moz-selection {
-  background: #2E4051;
-  color: #fff;
-  text-shadow: none; }
-
-::selection {
-  background: #2E4051;
-  color: #fff;
-  text-shadow: none; }*/
+/*a {
+  -webkit-tap-highlight-color: #2E4051; }*/
 
 img {
   -ms-interpolation-mode: bicubic; }
@@ -34,6 +24,10 @@ strong {
 
 em {
   font-style: italic; }
+
+.navbar.navbar-default {
+  background: transparent !important;
+}
 
 .btn-home {
   background-color: #56aeb6;
@@ -82,11 +76,12 @@ em {
 
 #lp-registration {
   background: rgba(255,255,255,0.4);
-  padding: 10px;
+/*  padding: 10px 15px 20px 35px;*/
   display: block;
   margin: auto;
   position: absolute;
-  width: 100%;
+  width: 480px;
+  height: 182px;
   left: 0;
   right: 0;
   z-index: 999;
@@ -164,11 +159,15 @@ height: 42px;
 margin: 0;
 }
 
+.hbsp-form {
+  margin-top: -102px;
+}
+
 .hs-button {
   position: relative;
   width: 465px;
   top: -331px;
-  left: -11px;
+  left: -28px;
   height: 42px;
   font-size: 14px;
   font-weight: 700;
