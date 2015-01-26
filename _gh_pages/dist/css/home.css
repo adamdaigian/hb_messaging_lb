@@ -27,6 +27,7 @@ em {
 
 .navbar.navbar-default {
   background: transparent !important;
+  border: none !important;
 }
 
 .btn-home {
@@ -47,6 +48,7 @@ em {
 .btn-home:focus {
   background-color: #56aeb6;
   border: #56aeb6;
+  outline: none;
 }
 
 /* Clearfix: */
@@ -72,6 +74,7 @@ em {
   color: #666666;
   font-family: 'open-sans' sans-serif;
   font-weight: 600;
+
 }
 
 #lp-registration {
@@ -269,6 +272,7 @@ margin: 0;
   font-weight: 700;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 70px;
+  text-shadow: 0 0px 4px rgba(133,133,133,0.37);
 }
 
 .home-sub {
@@ -331,7 +335,7 @@ section {
   background-color: #f0f0f0;
   margin-top: -110px;
   padding-top: 80px;
-/*  padding-bottom: 80px;*/
+  padding-bottom: 60px;
   color: #666666;
 }
 
@@ -506,13 +510,14 @@ span.line-sep:after {
 
 .get-going {
   background:
-    url("https://s3.amazonaws.com/honeybook_cdn/assets_system/system_web/contact_page_map/contactpage_airplane.png") -100px 200px no-repeat,
+    url("https://s3.amazonaws.com/honeybook_cdn/assets_system/system_web/contact_page_map/contactpage_airplane.png") -100px 320px no-repeat,
     linear-gradient(to bottom, rgba(0, 0, 0, .4) 40%, rgba(0, 0, 0, .4) 40%), 
-    url("https://s3.amazonaws.com/honeybook_cdn/assets_system/system_web/cover_slide/cover_contact.jpg") no-repeat 0% 0%;
-  height: 400px;
+    url("https://s3.amazonaws.com/honeybook_cdn/assets_system/system_web/cover_slide/cover_contact.jpg") 0% 0% no-repeat;
+  height: 500px;
 }
 
 .footer-lead {
+  margin-top: 80px;
   font-size: 46px;
   font-weight: 500;
   color: #fff;
