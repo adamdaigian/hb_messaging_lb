@@ -29,10 +29,10 @@ $(document).ready(function() {
 
   //testimonials section
   $('#data-section-1').click(function () {
-      $('#avatar-1').addClass('advatar-active')
-      $('#avatar-2').removeClass('advatar-active')
-      $('#avatar-3').removeClass('advatar-active')
-      $('#avatar-4').removeClass('advatar-active')
+      $('#avatar-1').addClass('avatar-active')
+      $('#avatar-2').removeClass('avatar-active')
+      $('#avatar-3').removeClass('avatar-active')
+      $('#avatar-4').removeClass('avatar-active')
       $('#testimonial-1').addClass('active')
       $('#testimonial-2').removeClass('active')
       $('#testimonial-3').removeClass('active')
@@ -40,10 +40,10 @@ $(document).ready(function() {
       mixpanel.track('stationary')
   });
   $('#data-section-2').click(function () {
-      $('#avatar-1').removeClass('advatar-active')
-      $('#avatar-2').addClass('advatar-active')
-      $('#avatar-3').removeClass('advatar-active')
-      $('#avatar-4').removeClass('advatar-active')
+      $('#avatar-1').removeClass('avatar-active')
+      $('#avatar-2').addClass('avatar-active')
+      $('#avatar-3').removeClass('avatar-active')
+      $('#avatar-4').removeClass('avatar-active')
       $('#testimonial-1').removeClass('active')
       $('#testimonial-2').addClass('active')
       $('#testimonial-3').removeClass('active')
@@ -51,10 +51,10 @@ $(document).ready(function() {
       mixpanel.track('stationary')
   });
   $('#data-section-3').click(function () {
-      $('#avatar-1').removeClass('advatar-active')
-      $('#avatar-2').removeClass('advatar-active')
-      $('#avatar-3').addClass('advatar-active')
-      $('#avatar-4').removeClass('advatar-active')
+      $('#avatar-1').removeClass('avatar-active')
+      $('#avatar-2').removeClass('avatar-active')
+      $('#avatar-3').addClass('avatar-active')
+      $('#avatar-4').removeClass('avatar-active')
       $('#testimonial-1').removeClass('active')
       $('#testimonial-2').removeClass('active')
       $('#testimonial-3').addClass('active')
@@ -62,10 +62,10 @@ $(document).ready(function() {
       mixpanel.track('stationary')
   });
   $('#data-section-4').click(function () {
-      $('#avatar-1').removeClass('advatar-active')
-      $('#avatar-2').removeClass('advatar-active')
-      $('#avatar-3').removeClass('advatar-active')
-      $('#avatar-4').addClass('advatar-active')
+      $('#avatar-1').removeClass('avatar-active')
+      $('#avatar-2').removeClass('avatar-active')
+      $('#avatar-3').removeClass('avatar-active')
+      $('#avatar-4').addClass('avatar-active')
       $('#testimonial-1').removeClass('active')
       $('#testimonial-2').removeClass('active')
       $('#testimonial-3').removeClass('active')
