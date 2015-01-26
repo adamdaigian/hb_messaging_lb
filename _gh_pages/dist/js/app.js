@@ -6,12 +6,12 @@ $(document).ready(function() {
   });
 
   //signup
-  $('#email-signup').click(function () { 
-    $('#github-signup').hide()
-    $('#google-signup').hide()
-    $('#email-signup').hide()
-    $('.divider').hide()
-    $('#signup-form').show()
+  $('#home-sign-up').click(function () { 
+    $('#home-sign-up').hide()
+    // $('#google-signup').hide()
+    // $('#email-signup').hide()
+    // $('.divider').hide()
+    $('#lp-registration').show()
   }); 
 
   jQuery(function() {
