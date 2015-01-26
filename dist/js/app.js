@@ -14,6 +14,16 @@ $(document).ready(function() {
     $('#lp-registration').show()
   });
 
+    $('#home-sign-up-footer').click(function () { 
+    $('#home-sign-up').hide()
+    // $('#google-signup').hide()
+    // $('#email-signup').hide()
+    // $('.divider').hide()
+    $('#lp-registration').show()
+    $("html, body").animate({ scrollTop: 0 }, 600);
+    return false;
+  });
+
   //testimonials section
   // $(".data-section-title").click(function() {
   //     obj = $(this)
